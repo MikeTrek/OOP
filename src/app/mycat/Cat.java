@@ -1,8 +1,11 @@
 package app.mycat;
 
-public class Cat {
+import app.mydog.Dog;
 
-    public void say(){
+public class Cat extends Dog {
+
+    @Override
+    public void say() {
         System.out.println("Мяу");
     }
 }
