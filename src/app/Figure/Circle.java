@@ -8,13 +8,14 @@ public class Circle extends Shape {
         this.d = d;
     }
 
-    @Override
     public double perimetr(){
         return Math.PI*d;
     }
 
     @Override
-    public double square(){
-        return 0;
+    public double square() {
+        return (Math.PI*(d*d/4))/2;
     }
+
+
 }

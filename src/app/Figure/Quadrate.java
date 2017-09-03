@@ -8,14 +8,14 @@ public class Quadrate extends Shape {
         this.a = a;
     }
 
-    @Override
+      @Override
     public double square() {
         return a*a ;
     }
 
     @Override
     public double perimetr() {
-        return 0;
+        return 4*a;
     }
 
 }
